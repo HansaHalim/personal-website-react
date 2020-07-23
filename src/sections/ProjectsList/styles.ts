@@ -21,8 +21,12 @@ export const ContentWrapper = styled.div`
 export const Content = styled.div`
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    padding: 30px 150px;
+    padding: 30px 75px;
     box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     @media screen and (max-width: 768px) {
         padding: 30px 30px;

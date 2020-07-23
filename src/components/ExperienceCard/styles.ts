@@ -8,6 +8,10 @@ export const Card = styled.div`
     flex-wrap: wrap;
     align-items: stretch;
     padding: 0;
+
+    @media screen and (max-width: 950px) {
+        flex-direction: column;
+    }
 `;
 
 export const CompanyInfoContainer = styled.div`
@@ -19,7 +23,11 @@ export const CompanyInfoContainer = styled.div`
     align-items: center;
     
     img {
-        width: 350px;
+        width: 90%;
+    }
+
+    @media screen and (max-width: 950px) {
+        width: 100%;
     }
 `;
 
@@ -41,7 +49,14 @@ export const ExperienceDetails = styled.div`
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 5%;
+    text-align: left;
+
+    @media screen and (max-width: 950px) {
+        width: 100%;
+        text-align: center;
+        margin-top: -1.75rem;
+    }
 `;
 
 export const JobTitle = styled.h3`
@@ -49,7 +64,6 @@ export const JobTitle = styled.h3`
     color: rgb(191, 155, 189);
     margin: 0px;
     font-weight: normal;
-    text-align: left;
 `;
 
 export const Date = styled.p`
@@ -62,13 +76,18 @@ export const Description = styled.p`
     margin-top: 10px;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.68);
-    text-align: left;
 `;
 
 export const TechStackContainer = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    white-space: nowrap;
+
+    @media screen and (max-width: 950px) {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
 `;
 
 export const TechStack = styled.div`

@@ -8,7 +8,7 @@ import {
     HeaderContainer, 
     Header, 
 } from "./styles";
-import Experience from "../../components/Experience";
+import ExperienceCard from "../../components/ExperienceCard";
 
 const WorkExperience = () => {
     const toped = ['Go', 'REST API', 'JavaScript', 'SQL'];
@@ -22,7 +22,7 @@ const WorkExperience = () => {
         </HeaderContainer>
         <ContentWrapper>
             <Content>
-                <Experience 
+                <ExperienceCard 
                   companyLogo={tokopedia}
                   companyName={"Tokopedia"}
                   location={"Jakarta, Indonesia"}
@@ -31,7 +31,7 @@ const WorkExperience = () => {
                   description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
                   techStack={toped}
                 />
-                <Experience 
+                <ExperienceCard 
                   companyLogo={tokopedia}
                   companyName={"Tokopedia"}
                   location={"Jakarta, Indonesia"}

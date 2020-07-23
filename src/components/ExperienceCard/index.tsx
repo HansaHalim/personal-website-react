@@ -22,7 +22,7 @@ interface ExperienceProps {
     techStack: Array<string>;
 }
   
-class Experience extends React.Component<ExperienceProps, {}> {
+class ExperienceCard extends React.Component<ExperienceProps, {}> {
 
     renderTechStack() {
         return (
@@ -55,4 +55,4 @@ class Experience extends React.Component<ExperienceProps, {}> {
     }
 };
 
-export default Experience;
+export default ExperienceCard;
