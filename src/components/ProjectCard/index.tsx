@@ -12,11 +12,9 @@ import {
 } from "./styles";
 
 interface ProjectProps {
-    companyLogo: any;
-    companyName: string;
-    location: string;
-    jobTitle: string;
-    jobDate: string;
+    projectImage: any;
+    projectName: string;
+    projectDate: string;
     description: string;
     techStack: Array<string>;
 }
@@ -35,12 +33,12 @@ class ProjectCard extends React.Component<ProjectProps, {}> {
       return (
         <Card>
             <ImageContainer>
-                <img src={this.props.companyLogo} alt={this.props.companyName} />
+                <img src={this.props.projectImage} alt={this.props.projectName} />
             </ImageContainer>
             <TextContainer>
-                <Name>{this.props.companyName}</Name>
-                <Date>2020</Date>
-                <Description>Very good project deserve big award good stuff man thanks</Description>
+                <Name>{this.props.projectName}</Name>
+                <Date>{this.props.projectDate}</Date>
+                <Description>{this.props.description}</Description>
                 {this.renderTechStack()}
             </TextContainer>
         </Card>

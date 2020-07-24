@@ -1,5 +1,5 @@
 import React from "react";
-import tokopedia from "../../assets/companyLogo/tokopedia.png";
+import {myProjects} from '../../assets/constants/constants';
 
 import { 
     Container, 
@@ -11,7 +11,21 @@ import {
 import ProjectCard from "../../components/ProjectCard";
 
 const ProjectsList = () => {
-    const toped = ['Go', 'REST API', 'JavaScript', 'SQL', 'React', 'NextJS'];
+  
+  function renderProjects() {
+    return (
+      <Content>
+        {myProjects.map((project) => 
+        <ProjectCard 
+          projectImage={project.projectImage}
+          projectName={project.projectName}
+          projectDate={project.projectDate}
+          description={project.description}
+          techStack={project.techStack}
+        />)}
+      </Content>
+    );
+  }
 
   return (
     <Container>
@@ -21,62 +35,7 @@ const ProjectsList = () => {
             </Header>
         </HeaderContainer>
         <ContentWrapper>
-            <Content>
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-                <ProjectCard 
-                  companyLogo={tokopedia}
-                  companyName={"Tokopedia"}
-                  location={"Jakarta, Indonesia"}
-                  jobTitle={"Software Engineer Intern"}
-                  jobDate={"May 2019 - Aug. 2020"}
-                  description={"Lorem Ipsum Tokopedia is a very good company makes lots of money is a good e-commerce company"}
-                  techStack={toped}
-                />
-            </Content>
+            {renderProjects()}
         </ContentWrapper>
     </Container>
   );
