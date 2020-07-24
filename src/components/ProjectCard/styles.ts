@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 export const Card = styled.div`
     background-color: #fff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 1rem;
-    margin: 10px;
+    margin: 13px;
     box-shadow:  0 1px 2px 0 rgba(34,36,38,.15);
     width: 27.3%;
     min-width: 200px;
@@ -26,6 +24,7 @@ export const ImageContainer = styled.div`
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
+    padding: 0 1rem 1rem;
 `;
 
 export const TechStackContainer = styled.div`
@@ -43,7 +42,7 @@ export const TechStack = styled.div`
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(191, 155, 189);
+    border-color: #32527b;
     margin: 0px 5px 5px 0px;
     padding: 5px 10px;
 
@@ -53,9 +52,23 @@ export const TechStack = styled.div`
 `;
 
 export const Name = styled.h3`
-    color: rgb(104, 186, 240);
     font-size: 18px;
-    margin: 0px;
+    margin: 5px 0px;
+
+    img {
+        width: 11%;
+        margin-left: 8px;
+        margin-bottom: -8px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #32527B;
+    }
+    a:visited {
+        text-decoration: none;
+        color: #32527B;
+    }
 `;
 
 export const Date = styled.p`
@@ -67,5 +80,6 @@ export const Date = styled.p`
 export const Description = styled.p`
     margin-top: 5px;
     font-size: 15px;
+    line-height: 18px;
     color: rgba(0, 0, 0, 0.68);
 `;

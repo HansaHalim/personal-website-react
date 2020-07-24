@@ -19,6 +19,8 @@ const ProjectsList = () => {
         <ProjectCard 
           projectImage={project.projectImage}
           projectName={project.projectName}
+          projectWebsite={project.projectWebsite}
+          githubLink={project.githubLink}
           projectDate={project.projectDate}
           description={project.description}
           techStack={project.techStack}

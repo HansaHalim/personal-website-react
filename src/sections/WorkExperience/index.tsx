@@ -19,6 +19,7 @@ const WorkExperience = () => {
             <ExperienceCard 
               companyLogo={company.companyLogo} 
               companyName={company.companyName}
+              companyWebsite={company.companyWebsite}
               location={company.location}
               jobTitle={company.jobTitle}
               jobDate={company.jobDate}

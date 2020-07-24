@@ -15,6 +15,7 @@ import {
 interface ExperienceProps {
     companyLogo: any;
     companyName: string;
+    companyWebsite: string;
     location: string;
     jobTitle: string;
     jobDate: string;
@@ -36,11 +37,13 @@ class ExperienceCard extends React.Component<ExperienceProps, {}> {
       return (
         <Card>
             <CompanyInfoContainer>
-                <img src={this.props.companyLogo} alt="Tokopedia Logo"/>
+                <a href={this.props.companyWebsite} target="_blank" rel="noopener noreferrer">
+                <img src={this.props.companyLogo} alt={this.props.companyName + " Logo"}/>
                 <CompanyTitleContainer>
                     <h3>{this.props.companyName}</h3>
                     <p> {this.props.location}</p>
                 </CompanyTitleContainer>
+                </a>
             </CompanyInfoContainer>
             <ExperienceDetails>
                 <JobTitle>

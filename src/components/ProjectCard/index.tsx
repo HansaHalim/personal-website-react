@@ -1,4 +1,5 @@
 import React from "react";
+import githubIcon from '../../assets/projectImage/github_icon.png';
 
 import { 
     Card, 
@@ -14,6 +15,8 @@ import {
 interface ProjectProps {
     projectImage: any;
     projectName: string;
+    projectWebsite: string;
+    githubLink: string;
     projectDate: string;
     description: string;
     techStack: Array<string>;
@@ -32,11 +35,20 @@ class ProjectCard extends React.Component<ProjectProps, {}> {
     render() {
       return (
         <Card>
-            <ImageContainer>
-                <img src={this.props.projectImage} alt={this.props.projectName} />
-            </ImageContainer>
+            <a href={this.props.projectWebsite} target="_blank" rel="noopener noreferrer">
+                <ImageContainer>
+                    <img src={this.props.projectImage} alt={this.props.projectName} />
+                </ImageContainer>
+            </a>
             <TextContainer>
-                <Name>{this.props.projectName}</Name>
+                    <Name>
+                        <a href={this.props.projectWebsite} target="_blank" rel="noopener noreferrer">
+                            {this.props.projectName}
+                        </a> 
+                        <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
+                            <img src={githubIcon} alt="Github Icon"/>
+                        </a>
+                    </Name>
                 <Date>{this.props.projectDate}</Date>
                 <Description>{this.props.description}</Description>
                 {this.renderTechStack()}
