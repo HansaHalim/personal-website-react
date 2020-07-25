@@ -79,7 +79,7 @@ export const myProjects = [
     {
         projectImage: flappyShip,
         projectName: 'Flappy Ship',
-        projectWebsite: '',
+        projectWebsite: '/FlappyShipv1.4/game.html',
         githubLink: 'https://github.com/HansaHalim/Flappy-Ship',
         projectDate: 'June 2017',
         description: 'Similar to Flappy Bird but using a Space Ship!',
