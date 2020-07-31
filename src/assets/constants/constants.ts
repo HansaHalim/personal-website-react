@@ -15,7 +15,7 @@ export const workExperience = [
         location: 'Waterloo, Canada',
         jobTitle: 'Junior Software Developer',
         jobDate: 'Apr. 2020 - Present',
-        description: 'Tauria is a fully encrypted business platform providing secure messaging, video conferencing and more. I worked closely with their marketing team to improve user experience, onboarding, and customer retentions.',
+        description: 'Tauria is a fully encrypted business platform providing secure messaging, video conferencing and more. I worked closely with their marketing and analytics team to improve user experience, onboarding, and customer retentions.',
         techStack: ['TypeScript', 'Node', 'Express', 'Python', 'JavaScript', 'React', 'Apollo', 'GraphQL', 'React Native', 'PostgreSQL', 'SQLite', 'Docker', 'REST API']
     },
     {

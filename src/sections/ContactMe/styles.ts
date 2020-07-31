@@ -64,8 +64,8 @@ export const HeaderContainer = styled.div`
     }
 
     p {
-        font-family: "Montserrat";
-        font-weight: 200;
+        /* font-family: "Montserrat"; */
+        font-weight: 400;
         font-size: 17px;
     }
 `;
@@ -94,6 +94,7 @@ export const FormGroup = styled.div`
   }
 
   input {
+    font-family: "Calibri";
     margin-top: 10px;
     padding: 0.8rem 0.8rem;
     margin-bottom: 0.8rem;
@@ -129,7 +130,7 @@ export const MessageInput = styled.textarea`
     border: 1px solid rgb(110, 125, 151, 0.3);
     opacity: 1;
     font-size: 20px;
-    font-family: "Montserrat";
+    font-family: "Calibri";
 
     box-sizing: border-box;
     border-radius: 6px;
@@ -169,7 +170,5 @@ export const ContactItem = styled.div`
     p {
         margin-top: 7px;
         font-size: 18px;
-        font-family: "Montserrat";
-        font-weight: 400;
     }
 `;

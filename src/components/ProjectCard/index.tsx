@@ -1,5 +1,5 @@
 import React from "react";
-import githubIcon from '../../assets/projectImage/github_icon.png';
+import githubIcon from '../../assets/icons/github_icon.png';
 
 import { 
     Card, 

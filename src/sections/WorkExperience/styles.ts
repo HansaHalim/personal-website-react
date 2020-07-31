@@ -21,7 +21,7 @@ export const ContentWrapper = styled.div`
 export const Content = styled.div`
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    padding: 30px 150px;
+    padding: 20px 150px 30px;
     box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
 
     @media screen and (max-width: 768px) {
