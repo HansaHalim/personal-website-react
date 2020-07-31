@@ -9,10 +9,6 @@ export const Container = styled.section`
 
   width: 100%;
   min-height: 100vh;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 15vh;
-  }
 `;
 
 export const BackgroundImage = styled.div`
@@ -37,7 +33,7 @@ export const Blur = styled.div`
     right:0;
     bottom:0;
     left:0;
-    background: rgba(33,125,187,0.75);
+    background: rgba(16,99,168,0.75);
     z-index:2;
 `;
 
@@ -46,6 +42,10 @@ export const ContentWrapper = styled.div`
   width: 75%;
   flex-direction: row;
   z-index: 3;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 80%;
+  }
 `;
 
 export const Content = styled.div`
@@ -58,6 +58,15 @@ margin-left: 75px;
     font-weight: bold;
     line-height: 5.9rem;
     margin: 0rem;
+
+    @media screen and (max-width: 1028px) {
+      font-size: 58px;
+      line-height: 3.9rem;
+    }
+  }
+
+  @media screen and (max-width: 1028px) {
+    margin-left: 25px;
   }
 `;
 
@@ -71,20 +80,33 @@ export const Subtitle = styled.p`
   color: white; 
   font-size: 30px;
   margin: 0px;
+  @media screen and (max-width: 1028px) {
+    font-size: 23px;
+  }
+
+  @media screen and (max-width: 768px) {
+      font-size: 17px;
+  }
 `;
 
 export const ButtonsRow = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
+  height: 3.2rem;
 `;
 
-export const HeroImage = styled.div`
+export const MyImage = styled.div`
   flex: 1;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 
   img {
     width: 70%;
@@ -93,37 +115,40 @@ export const HeroImage = styled.div`
   }
 `;
 
-export const IconContainer = styled.div`
+export const IconContainer = styled.a`
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 7.5%;
-  width: 7.5%;
+  height: 3.2rem;
+  width: 3.2rem;
   border-radius: 5px;
   margin-right: 12px;
-  border: solid 1px rgba(33,125,187, 0.75);
 `;
 
 export const Icon = styled.img`
   width: 55%;
-  padding: 0.67rem 0.67rem;
   height: 55%;
 `;
 
-export const Button = styled.button`
-        background-color: white;
-        border: solid 1px rgba(33,125,187, 0.75);
-        border-radius: 5px;
-        text-transform: uppercase;
-        width: 30%;
-        font-size: 17px;
-        font-weight: bold;
+export const Button = styled.a`
+  background-color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  
+  height: 3.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-        cursor: pointer;
-        color: rgba(33,125,187);
+  cursor: pointer;
+  color: rgba(16,99,168);
 
-        @media screen and (max-width: 768px) {
-            margin-bottom: 2rem;
-        }
+  @media screen and (max-width: 1028px) {
+    font-size: 1rem;
+  }
 `;

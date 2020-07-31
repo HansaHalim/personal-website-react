@@ -10,7 +10,7 @@ import {
     SubtitleContainer,
     Subtitle,
     ButtonsRow,
-    HeroImage, 
+    MyImage, 
     Blur,
     BackgroundImage,
     Icon,
@@ -23,9 +23,9 @@ const Landing = () => {
     <Container>
       <BackgroundImage />
     <ContentWrapper>
-      <HeroImage>
+      <MyImage>
         <img src={myPhoto} alt="Hansa Halim"></img>
-      </HeroImage>
+      </MyImage>
       <Content>
         <h1>Hansa Halim</h1>
         <SubtitleContainer>
@@ -37,15 +37,15 @@ const Landing = () => {
           </Subtitle>
         </SubtitleContainer>
         <ButtonsRow>
-          <IconContainer>
-            <Icon src={linkedin} />
-          </IconContainer>
-          <IconContainer>
-            <Icon src={github} />
-          </IconContainer>
-          <Button>
-            View&nbsp;Resume
-          </Button>
+            <IconContainer href="https://linkedin.com/in/hansahalim" target="_blank" rel="noopener noreferrer">
+              <Icon src={linkedin}/>
+            </IconContainer>
+            <IconContainer href="http://github.com/hansahalim" target="_blank" rel="noopener noreferrer">
+              <Icon src={github} />
+            </IconContainer>
+            <Button href="resume.pdf">
+              View&nbsp;Resume
+            </Button>
         </ButtonsRow>
       </Content>
     </ContentWrapper>
