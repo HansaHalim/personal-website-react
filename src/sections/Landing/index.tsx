@@ -1,21 +1,23 @@
 import React from "react";
-import myPhoto from '../../assets/img/hansa_halim2.jpg';
+import myPhoto from '../../assets/img/hansa_halim.jpg';
 import linkedin from '../../assets/icons/linkedin.png';
 import github from '../../assets/icons/github_icon.png';
+import down from '../../assets/icons/down_icon.svg';
 
 import { 
     Container, 
+    BackgroundImage,
+    Blur,
     ContentWrapper,
     Content,
     SubtitleContainer,
     Subtitle,
     ButtonsRow,
     MyImage, 
-    Blur,
-    BackgroundImage,
+    IconContainer,
     Icon,
     Button,
-    IconContainer
+    DownIcon,
 } from "./styles";
 
 const Landing = () => {
@@ -49,6 +51,7 @@ const Landing = () => {
         </ButtonsRow>
       </Content>
     </ContentWrapper>
+    <DownIcon src={down} alt="down icon"/>
     <Blur />
   </Container>
   );

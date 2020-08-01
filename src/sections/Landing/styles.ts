@@ -6,6 +6,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-direction: column;
 
   width: 100%;
   min-height: 100vh;
@@ -42,6 +43,7 @@ export const ContentWrapper = styled.div`
   width: 75%;
   flex-direction: row;
   z-index: 3;
+  
   @media screen and (max-width: 768px) {
     flex-direction: column;
     width: 80%;
@@ -68,6 +70,11 @@ margin-left: 75px;
   @media screen and (max-width: 1028px) {
     margin-left: 25px;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-left: 15px;
+    margin-top: -62%;
+  }
 `;
 
 export const SubtitleContainer = styled.div`
@@ -80,6 +87,7 @@ export const Subtitle = styled.p`
   color: white; 
   font-size: 30px;
   margin: 0px;
+
   @media screen and (max-width: 1028px) {
     font-size: 23px;
   }
@@ -124,6 +132,10 @@ export const IconContainer = styled.a`
   width: 3.2rem;
   border-radius: 5px;
   margin-right: 12px;
+
+  @media screen and (max-width: 375px) {
+    height: 2.66rem;
+  }
 `;
 
 export const Icon = styled.img`
@@ -150,5 +162,27 @@ export const Button = styled.a`
 
   @media screen and (max-width: 1028px) {
     font-size: 1rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    height: 2.66rem;
+  }
+`;
+
+export const DownIcon = styled.img`
+  position: absolute;
+  z-index: 3;
+  width: 4%;
+  bottom: 0;
+  margin-bottom: 1.5rem;
+  filter: invert(1);
+
+  @media screen and (max-width: 768px) {
+    width: 10%;
+    margin-bottom: 35%;
+  }
+  @media screen and (max-height: 450px) {
+    margin-bottom: 15px;
+    width: 7%;
   }
 `;
