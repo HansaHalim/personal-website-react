@@ -9,11 +9,11 @@ export const Container = styled.nav`
 `;
 
 export const ContentWrapper = styled.div`
-    width: 75%;
-    margin: 30px 0px;
-    display: block;
+  width: 75%;
+  margin: 30px 0px;
+  display: block;
 
-    @media screen and (max-width: 768px) {
-        width: 90%;
-    }
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;

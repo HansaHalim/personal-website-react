@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from '../../assets/img/background.jpg';
+import background from "../../assets/img/background.jpg";
 
 export const Container = styled.section`
   display: flex;
@@ -27,15 +27,15 @@ export const BackgroundImage = styled.div`
 `;
 
 export const Blur = styled.div`
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    background: rgba(16,99,168,0.75);
-    z-index:2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(16, 99, 168, 0.75);
+  z-index: 2;
 `;
 
 export const ContentWrapper = styled.div`
@@ -43,7 +43,7 @@ export const ContentWrapper = styled.div`
   width: 75%;
   flex-direction: row;
   z-index: 3;
-  
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
     width: 80%;
@@ -51,9 +51,9 @@ export const ContentWrapper = styled.div`
 `;
 
 export const Content = styled.div`
-text-align: left;
-flex: 2;
-margin-left: 75px;
+  text-align: left;
+  flex: 2;
+  margin-left: 75px;
   h1 {
     font-size: 68px;
     color: white;
@@ -84,7 +84,7 @@ export const SubtitleContainer = styled.div`
 `;
 
 export const Subtitle = styled.p`
-  color: white; 
+  color: white;
   font-size: 30px;
   margin: 0px;
 
@@ -93,7 +93,7 @@ export const Subtitle = styled.p`
   }
 
   @media screen and (max-width: 768px) {
-      font-size: 17px;
+    font-size: 17px;
   }
 `;
 
@@ -148,7 +148,7 @@ export const Button = styled.a`
   border-radius: 5px;
   text-transform: uppercase;
   padding: 0 2rem;
-  
+
   height: 3.2rem;
   font-weight: bold;
   text-decoration: none;
@@ -158,7 +158,7 @@ export const Button = styled.a`
   align-items: center;
 
   cursor: pointer;
-  color: rgba(16,99,168);
+  color: rgba(16, 99, 168);
 
   @media screen and (max-width: 1028px) {
     font-size: 1rem;
@@ -176,6 +176,10 @@ export const DownIcon = styled.img`
   bottom: 0;
   margin-bottom: 1.5rem;
   filter: invert(1);
+
+  :hover {
+    cursor: pointer;
+  }
 
   @media screen and (max-width: 768px) {
     width: 10%;

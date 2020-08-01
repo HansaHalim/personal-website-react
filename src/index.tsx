@@ -1,12 +1,12 @@
-import React from 'react';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
 import { hydrate, render } from "react-dom";
- 
+
 const rootElement = document.getElementById("root");
-if(rootElement === null) {
+if (rootElement === null) {
   render(<App />, rootElement);
 } else if (rootElement.hasChildNodes()) {
   hydrate(<App />, rootElement);
