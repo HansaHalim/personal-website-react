@@ -24,7 +24,7 @@ export const workExperience = [
     companyWebsite: "https://www.tauria.com",
     location: "Waterloo, Canada",
     jobTitle: "Junior Software Developer",
-    jobDate: "Apr. 2020 - Present",
+    jobDate: "Apr. 2020 - Aug. 2020",
     description:
       "Tauria is a fully encrypted business platform providing secure messaging, video conferencing and more. I worked closely with their marketing and analytics team to improve user experience, onboarding, and customer retentions.",
     techStack: [
@@ -37,6 +37,7 @@ export const workExperience = [
       "Apollo",
       "GraphQL",
       "React Native",
+      "D3",
       "PostgreSQL",
       "SQLite",
       "Docker",
@@ -49,7 +50,7 @@ export const workExperience = [
     companyWebsite: "https://www.tokopedia.com",
     location: "Jakarta, Indonesia",
     jobTitle: "Software Engineer Intern",
-    jobDate: "May 2019 - Aug. 2020",
+    jobDate: "May 2019 - Aug. 2019",
     description: `Tokopedia is Indonesia's largest e-commerce startup valued at 7 billion US dollar backed by Alibaba Group. I worked in their Fintech team working on lending platform, insurance and credit card.`,
     techStack: [
       "Golang",
@@ -79,10 +80,11 @@ export const myProjects = [
       "NextJS",
       "PeerJS",
       "Bulma",
-      "REST API",
+      "REST",
       "Python",
       "Django",
       "SQLite",
+      "WebRTC",
     ],
   },
   {
