@@ -12,9 +12,21 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/blog" exact component={() => <Blog />} />
-          <Route path="/netflix-blog" exact component={() => <Netflix />} />
-          <Route path="/how-blog" exact component={() => <HowBlog />} />
+          <Route
+            path="/personal-website-react/blog"
+            exact
+            component={() => <Blog />}
+          />
+          <Route
+            path="/personal-website-react/netflix-blog"
+            exact
+            component={() => <Netflix />}
+          />
+          <Route
+            path="/personal-website-react/how-blog"
+            exact
+            component={() => <HowBlog />}
+          />
         </Switch>
       </Router>
     </div>
