@@ -1,22 +1,19 @@
 import React from "react";
 import "./App.css";
-import Home from "./sections/Home";
-import Blog from "./sections/Blog";
-import Netflix from "./sections/Blog/Contents/Netflix";
-import HowBlog from "./sections/Blog/Contents/HowBlog";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import WorkExperience from "./sections/WorkExperience";
+import ProjectsList from "./sections/ProjectsList";
+import ContactMe from "./sections/ContactMe";
+import Footer from "./sections/Footer";
+import Landing from "./sections/Landing";
 
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/blog" exact component={() => <Blog />} />
-          <Route path="/netflix-blog" exact component={() => <Netflix />} />
-          <Route path="/how-blog" exact component={() => <HowBlog />} />
-        </Switch>
-      </Router>
+      <Landing />
+      <WorkExperience />
+      <ProjectsList />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }
