@@ -1,5 +1,6 @@
 import toped from "../companyLogo/tokopedia.png";
 import tauria from "../companyLogo/tauria.png";
+import okta from "../companyLogo/okta.png";
 import fluent from "../projectImage/fluent.png";
 import goosenet from "../projectImage/goosenet.png";
 import realtimeq from "../projectImage/realtimeq.png";
@@ -10,7 +11,7 @@ import hansahalim from "../img/hansa_halim.jpg";
 
 export const landingInfo = {
   nameTitle: "Hansa Halim",
-  subtitles: ["University of Waterloo", "Junior Software Developer at Tauria"],
+  subtitles: ["University of Waterloo Math '22", "Incoming New Grad Software Engineer at Okta"],
   image: hansahalim,
   linkedIn: "https://linkedin.com/in/hansahalim",
   github: "https://github.com/hansahalim",
@@ -18,6 +19,23 @@ export const landingInfo = {
 };
 
 export const workExperience = [
+  {
+    companyLogo: okta,
+    companyName: "Okta",
+    companyWebsite: "https://www.okta.com",
+    location: "Toronto, Canada",
+    jobTitle: "Software Engineer Intern",
+    jobDate: "Apr. 2021 - Aug. 2021",
+    description:
+      "Okta is the World's #1 Identity Platform. Enabling organizations to securely connect the right people to the right technologies at the right time. I worked in their Feature Framework team creating a phased feature rollout system.",
+    techStack: [
+      "Java",
+      "Spring",
+      "JavaScript",
+      "Backbone.js",
+      "MySQL",
+    ],
+  },
   {
     companyLogo: tauria,
     companyName: "Tauria",
