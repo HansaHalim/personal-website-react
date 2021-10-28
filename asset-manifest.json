@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/personal-website-react/static/css/main.1779617f.chunk.css",
+    "main.js": "/personal-website-react/static/js/main.c7344f95.chunk.js",
+    "main.js.map": "/personal-website-react/static/js/main.c7344f95.chunk.js.map",
+    "runtime-main.js": "/personal-website-react/static/js/runtime-main.78661e0c.js",
+    "runtime-main.js.map": "/personal-website-react/static/js/runtime-main.78661e0c.js.map",
+    "static/js/2.b5e01515.chunk.js": "/personal-website-react/static/js/2.b5e01515.chunk.js",
+    "static/js/2.b5e01515.chunk.js.map": "/personal-website-react/static/js/2.b5e01515.chunk.js.map",
+    "index.html": "/personal-website-react/index.html",
+    "precache-manifest.759ca01206dfb89c4ef9c9dcdfe92384.js": "/personal-website-react/precache-manifest.759ca01206dfb89c4ef9c9dcdfe92384.js",
+    "service-worker.js": "/personal-website-react/service-worker.js",
+    "static/css/main.1779617f.chunk.css.map": "/personal-website-react/static/css/main.1779617f.chunk.css.map",
+    "static/js/2.b5e01515.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.b5e01515.chunk.js.LICENSE.txt",
+    "static/media/FlappyShip.png": "/personal-website-react/static/media/FlappyShip.91e59eea.png",
+    "static/media/background.jpg": "/personal-website-react/static/media/background.2b4429e6.jpg",
+    "static/media/biquadris.png": "/personal-website-react/static/media/biquadris.0214db21.png",
+    "static/media/citations.png": "/personal-website-react/static/media/citations.d852815f.png",
+    "static/media/down_icon.svg": "/personal-website-react/static/media/down_icon.17778957.svg",
+    "static/media/dvdService.png": "/personal-website-react/static/media/dvdService.f6b79726.png",
+    "static/media/email.png": "/personal-website-react/static/media/email.1ec703f2.png",
+    "static/media/fluent.png": "/personal-website-react/static/media/fluent.5e80571e.png",
+    "static/media/goosenet.png": "/personal-website-react/static/media/goosenet.b9c82d40.png",
+    "static/media/hansa_halim.jpg": "/personal-website-react/static/media/hansa_halim.f55618d5.jpg",
+    "static/media/mathEquations.jpg": "/personal-website-react/static/media/mathEquations.e3b18a25.jpg",
+    "static/media/netflixLogo.png": "/personal-website-react/static/media/netflixLogo.73a72898.png",
+    "static/media/okta.png": "/personal-website-react/static/media/okta.012054f3.png",
+    "static/media/openapp.png": "/personal-website-react/static/media/openapp.a445a74a.png",
+    "static/media/realtimeq.png": "/personal-website-react/static/media/realtimeq.e5054ac8.png",
+    "static/media/tauria.png": "/personal-website-react/static/media/tauria.bbd597c3.png",
+    "static/media/thoughtsImage.jpg": "/personal-website-react/static/media/thoughtsImage.788a000d.jpg",
+    "static/media/tokopedia.png": "/personal-website-react/static/media/tokopedia.127bef28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78661e0c.js",
+    "static/js/2.b5e01515.chunk.js",
+    "static/css/main.1779617f.chunk.css",
+    "static/js/main.c7344f95.chunk.js"
+  ]
+}
