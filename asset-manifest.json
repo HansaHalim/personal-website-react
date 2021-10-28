@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-website-react/static/css/main.1779617f.chunk.css",
-    "main.js": "/personal-website-react/static/js/main.cb1ee69c.chunk.js",
-    "main.js.map": "/personal-website-react/static/js/main.cb1ee69c.chunk.js.map",
+    "main.js": "/personal-website-react/static/js/main.f4e61808.chunk.js",
+    "main.js.map": "/personal-website-react/static/js/main.f4e61808.chunk.js.map",
     "runtime-main.js": "/personal-website-react/static/js/runtime-main.78661e0c.js",
     "runtime-main.js.map": "/personal-website-react/static/js/runtime-main.78661e0c.js.map",
-    "static/js/2.b5e01515.chunk.js": "/personal-website-react/static/js/2.b5e01515.chunk.js",
-    "static/js/2.b5e01515.chunk.js.map": "/personal-website-react/static/js/2.b5e01515.chunk.js.map",
+    "static/js/2.35304424.chunk.js": "/personal-website-react/static/js/2.35304424.chunk.js",
+    "static/js/2.35304424.chunk.js.map": "/personal-website-react/static/js/2.35304424.chunk.js.map",
     "index.html": "/personal-website-react/index.html",
-    "precache-manifest.7acc5b816952b9bcad08bb05a25b0063.js": "/personal-website-react/precache-manifest.7acc5b816952b9bcad08bb05a25b0063.js",
+    "precache-manifest.2c50202b4ca0617bce347bc2ae6f3f16.js": "/personal-website-react/precache-manifest.2c50202b4ca0617bce347bc2ae6f3f16.js",
     "service-worker.js": "/personal-website-react/service-worker.js",
     "static/css/main.1779617f.chunk.css.map": "/personal-website-react/static/css/main.1779617f.chunk.css.map",
-    "static/js/2.b5e01515.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.b5e01515.chunk.js.LICENSE.txt",
+    "static/js/2.35304424.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.35304424.chunk.js.LICENSE.txt",
     "static/media/FlappyShip.png": "/personal-website-react/static/media/FlappyShip.91e59eea.png",
     "static/media/background.jpg": "/personal-website-react/static/media/background.2b4429e6.jpg",
     "static/media/biquadris.png": "/personal-website-react/static/media/biquadris.0214db21.png",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.78661e0c.js",
-    "static/js/2.b5e01515.chunk.js",
+    "static/js/2.35304424.chunk.js",
     "static/css/main.1779617f.chunk.css",
-    "static/js/main.cb1ee69c.chunk.js"
+    "static/js/main.f4e61808.chunk.js"
   ]
 }
