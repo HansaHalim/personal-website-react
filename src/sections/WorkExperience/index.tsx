@@ -7,6 +7,7 @@ import {
   Content,
   HeaderContainer,
   Header,
+  Shading,
 } from "./styles";
 import ExperienceCard from "../../components/ExperienceCard";
 
@@ -34,6 +35,10 @@ const WorkExperience = () => {
     <Container id="experience">
       <HeaderContainer>
         <Header>Work Experience</Header>
+        <Shading
+          src="https://imageshare.best/gradient.php?color=X3B2Z6"
+          alt="gradient shading"
+        ></Shading>
       </HeaderContainer>
       <ContentWrapper>{renderExperiences()}</ContentWrapper>
     </Container>

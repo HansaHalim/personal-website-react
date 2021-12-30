@@ -40,3 +40,7 @@ export const Header = styled.h2`
   font-size: 35px;
   font-family: "Montserrat";
 `;
+
+export const Shading = styled.img`
+  display: none;
+`;
