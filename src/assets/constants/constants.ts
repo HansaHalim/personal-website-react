@@ -173,7 +173,7 @@ export const myProjects = [
 ];
 
 export const contactInfo = {
-  phoneNumber: "+1 (226) 868-5607",
-  email: "hansa@halim.ca",
-  formSpreeLink: "https://formspree.io/xyynlnrr",
+  phoneNumber: "add phone number here",
+  email: "add email here",
+  formSpreeLink: "add form spree info here",
 };
